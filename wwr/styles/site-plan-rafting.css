@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+h1 {
+     font-family: Permanent Marker, display;
+        text-shadow: 2px 3px 1px #252627;
+}
+
+
+body { 
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #fff9fb;
+    --secondary-color: #4b88a2;
+    --accent1-color: #d3d4d9;
+    --accent2-color: #252627;
+    --accent3-color: #ff8c00;
+
+    --heading-font: "Work Sans", serif;
+    --paragraph-font: Quicksand, serif;
+
+    --navigation-background-color: #ff8c00;
+    --navigation-link-color: #3366ff;
+    --navigation-hover-link-color: #fff9fb;
+    --navigation-link-color: #ff8c00;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent3-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--navigation-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
