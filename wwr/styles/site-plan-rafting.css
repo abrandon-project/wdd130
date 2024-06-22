@@ -26,10 +26,10 @@ body {
     --heading-font: "Work Sans", serif;
     --paragraph-font: Quicksand, serif;
 
-    --navigation-background-color: #ff8c00;
-    --navigation-link-color: #3366ff;
-    --navigation-hover-link-color: #fff9fb;
-    --navigation-link-color: #ff8c00;
+    --nav-background-color: #ff8c00;
+    --nav-link-color: #3366ff;
+    --nav-hover-link-color: #252627;
+    --nav-hover-background-color: #ff8c00;
 }
 
 body {
@@ -53,7 +53,7 @@ p {
 }
 
 nav {
-    background-color: var(--navigation-background-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
