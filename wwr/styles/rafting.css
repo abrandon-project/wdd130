@@ -199,3 +199,103 @@ footer p {
 .sociallinks img {
     width: 35px;
 }
+
+/* Contact Page */
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: beige;
+    max-width: 1000px;
+    margin: 15px auto;
+    padding: 10px;
+    border: 2px solid #4b88a2;
+    border-radius: 5px;
+}
+
+.company-info {
+    color: black;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+    
+.our-employees {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--accent4-color)
+}
+.our-employees {
+    box-sizing: border-box;
+    background-color: beige;
+    border: 2px solid #4b88a2;
+}
+
+form {
+    display: grid;
+    background-color:#0f267f;
+    color: #fff9fb;
+    font-size: 20px;
+    width: 565px;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
+fieldset {
+    display: grid;
+    grid-gap: 1.25rem;
+    margin: .5rem;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.25rem;
+    color: #fff9fb;
+    font-size: 1.2em;
+}
+
+label {
+    text-align: left;
+}
+
+.help-form1 {
+    display: grid;
+    
+}
+.contact-form2 {
+    display: block;
+    
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    padding: .5rem;
+}
+
+input[type="checkbox"] {
+    width: 50px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    color:hsl(230, 100%, 50%);
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 1.5em;
+}
+
+button:hover {
+    background-color: #e6fa06;
+}
+
+a{
+    color: black;
+    text-align: center;
+}
