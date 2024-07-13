@@ -201,6 +201,9 @@ footer p {
 }
 
 /* Contact Page */
+.h1 {
+    color: var(--accent4-color);
+}
 
 .contact-container {
     display: flex;
