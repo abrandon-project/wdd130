@@ -35,13 +35,21 @@ h1 {
 h2 {
     font-family: var(--heading2-font);
     color: var(--accent4-color);
-
+    text-align: center;
+    font: large;
 }
 header {
     background-color: var(--accent1-color);
     color: white;
     padding: 1rem;
     text-align: left;
+    margin: 1em auto;
+    /* display: grid; */
+    display: flex;
+    /* grid-template-columns: 35%, 1fr; */
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1240px;
 
 }
 header img {
@@ -49,6 +57,9 @@ header img {
     height: auto;
     border-radius: 50px;
     margin-right: 25px;
+    margin: 0 0.25rem 0 1rem;
+    width: 110px;
+    height: auto;
 }
 nav {
     line-height: 1rem;
@@ -56,6 +67,8 @@ nav {
     font-size: 1.2rem;
     list-style-type: none;
     /* display: flex; */
+    text-align: right;
+    width: 100%
 }
 
 .hero {
@@ -102,24 +115,24 @@ nav {
 }
 
 /* Week 04 enhancements */
-header {
-    margin: 1em auto;
+/* header { */
+    /* margin: 1em auto; */
     /* display: grid; */
-    display: flex;
+    /* display: flex; */
     /* grid-template-columns: 35%, 1fr; */
-    align-items: center;
-    border-bottom: 1px solid #ccc;
-    max-width: 1240px;
-}
-header img{
-    margin: 0 0.25rem 0 1rem;
-    width: 110px;
-    height: auto;
-}
-nav {
-    text-align: right;
-    width: 100%
-}
+    /* align-items: center; */
+    /* border-bottom: 1px solid #ccc; */
+    /* max-width: 1240px; */
+/* } */
+/* header img{ */
+    /* margin: 0 0.25rem 0 1rem; */
+    /* width: 110px; */
+    /* height: auto; */
+
+/* nav { */
+    /* text-align: right; */
+    /* width: 100% */
+
 
 .navigation {
     display: flex;
@@ -144,10 +157,6 @@ nav {
     color: #ff8c00;
     font-weight: 700;
     text-decoration: underline;
-}
-h2 {
-    text-align: center;
-    font: large;
 }
 
 h2 p {
@@ -184,7 +193,6 @@ h2 p {
 footer {
     display: flex;
     justify-content: space-around;
-    /* align-items: left; */
     background-color: var(--accent3-color);
     padding: 10px 5px;
     margin-top: 50px;
@@ -229,12 +237,10 @@ footer p {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
-    color: var(--accent4-color)
-}
-.our-employees {
     box-sizing: border-box;
     background-color: beige;
     border: 2px solid #4b88a2;
+    color: var(--accent4-color)
 }
 
 form {
